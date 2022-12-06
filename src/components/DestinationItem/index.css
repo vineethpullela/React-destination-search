@@ -5,12 +5,13 @@
   margin-right: 15px;
   margin-bottom: 32px;
 }
-.img {
-  height: 235px;
-  width: 175px;
+.destination-img {
+  height: 130px;
+  width: 200px;
 }
-.des-name {
+.destination-name {
   color: #0f172a;
   font-family: 'Roboto';
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: 400;
 }
