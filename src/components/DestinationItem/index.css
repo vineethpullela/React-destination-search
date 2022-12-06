@@ -15,3 +15,8 @@
   font-size: 20px;
   font-weight: 400;
 }
+@media screen and (min-width: 768px) {
+  .destination-name {
+    font-size: 20px;
+  }
+}

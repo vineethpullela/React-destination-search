@@ -10,6 +10,11 @@
   width: 80%;
   max-width: 1140px;
 }
+@media screen and (min-width: 768px) {
+  .destinations-search-container {
+    align-items: flex-start;
+  }
+}
 .main-heading {
   color: #252627;
   font-family: 'Roboto';
@@ -19,6 +24,11 @@
   margin-top: 48px;
   margin-left: 15px;
   margin-bottom: 32px;
+}
+@media screen and (min-width: 768px) {
+  .main-heading {
+    margin-top: 96px;
+  }
 }
 .search-input-container {
   display: flex;
@@ -47,4 +57,9 @@
   flex-wrap: wrap;
   padding-left: 0px;
   margin-top: 48px;
+}
+@media screen and (min-width: 768px) {
+  .destinations-items-container {
+    justify-content: flex-start;
+  }
 }
